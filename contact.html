@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Wave Paradise</a>
+      <div class="nav-links">
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="contact-container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="nameInput">Name:</label>
+      <input type="text" id="nameInput" placeholder="Your name" required>
+
+      <label for="messageInput">Message:</label>
+      <textarea id="messageInput" placeholder="Your message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+    <p id="response"></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wave Paradise. All rights reserved.</p>
+  </footer>
+</body>
+</html>
